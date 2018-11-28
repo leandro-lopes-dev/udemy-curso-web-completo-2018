@@ -1,15 +1,12 @@
 const imprimirResultado = function(nota){
-if ( nota >= 7){
-
-    console.log ('Aprovado')
+    if(nota >=6){
+        console.log ('Aprovado!')
         
-        }else{
-
-    console.log('Reprovado')
-            }
-
+    }else{
+        console.log('Reprovado')
+    }
 }
 
-imprimirResultado(10)
-imprimirResultado(4)
-imprimirResultado('Epa!!!') // cuidado com a linguagem, ela é fracamente tipada
+imprimirResultado(10);
+imprimirResultado(4);
+imprimirResultado('Epa!') // cuidado a linguagem é fracamente tipada!
